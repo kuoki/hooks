@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { SimpleForm } from './useEffect/SimpleForm'
+// import { CustomHook } from './useEffect/CustomHook'
+// import { SimpleForm } from './useEffect/SimpleForm'
 // import { CounterApp } from './counter/CounterApp'
+import { MultipleCustomHooks } from './examples/MultipleCustomHooks'
 
 
 
@@ -9,6 +11,8 @@ import { SimpleForm } from './useEffect/SimpleForm'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <CounterApp /> */}
-    <SimpleForm/>
+    {/* <SimpleForm/> */}
+    {/* <CustomHook/> */}
+    <MultipleCustomHooks/>
   </React.StrictMode>,
 )
