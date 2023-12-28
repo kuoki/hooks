@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Padre } from './07-tarea-memo/Padre'
 // import { Memorize } from './memos/Memorize'
 // import { MemoHook } from './memos/MemoHook'
-import { CallbackHook } from './memos/CallbackHook'
+// import { CallbackHook } from './memos/CallbackHook'
 // import { FocusScreen } from './useRef/FocusScreen'
 // import { Layout } from './useLayout/Layout'
 // import { CustomHook } from './useEffect/CustomHook'
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   //   <MultipleCustomHooks/>
   // </React.StrictMode>,
   // <MemoHook/>
-  <CallbackHook/>
+  // <CallbackHook/>
+  <Padre/>
 // <Layout/>
 )
