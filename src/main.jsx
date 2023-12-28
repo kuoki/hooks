@@ -1,6 +1,7 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
-import { Padre } from './07-tarea-memo/Padre'
+import TodoApp from './useReducer/TodoApp'
+// import { Padre } from './07-tarea-memo/Padre'
 // import { Memorize } from './memos/Memorize'
 // import { MemoHook } from './memos/MemoHook'
 // import { CallbackHook } from './memos/CallbackHook'
@@ -11,7 +12,7 @@ import { Padre } from './07-tarea-memo/Padre'
 // import { CounterApp } from './counter/CounterApp'
 // import { MultipleCustomHooks } from './examples/MultipleCustomHooks'
 
-
+// import './useReducer/intro-reducer'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // </React.StrictMode>,
   // <MemoHook/>
   // <CallbackHook/>
-  <Padre/>
+  // <Padre/>
 // <Layout/>
+<TodoApp/>
 )
