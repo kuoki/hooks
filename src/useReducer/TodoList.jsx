@@ -1,19 +1,19 @@
 /* eslint-disable react/prop-types */
-import TodoItem from "./TodoItem"
+import TodoItem from "./TodoItem";
 
-const TodoList = ({todos = []}) => {
+const TodoList = ({ todos = [], onRemoveTodo, onToggleTodo }) => {
   return (
+    <ul className="list-group">
+      {todos.map((todo) => (
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          onRemoveTodo={onRemoveTodo}
+          onToggleTodo={onToggleTodo}
+        />
+      ))}
+    </ul>
+  );
+};
 
-          <ul className="list-group">
-        { 
-            todos.map( todo => (
-                <TodoItem key={todo.id} todo={todo}/>
-            ))
-    }
-      
-      </ul>
-
-  )
-}
-
-export default TodoList
+export default TodoList;
